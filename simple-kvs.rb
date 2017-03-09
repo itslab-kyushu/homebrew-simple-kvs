@@ -21,14 +21,14 @@
 class Simple-Kvs < Formula
   desc "Simple Key-Value Storage"
   homepage "https://github.com/itslab-kyushu/simple-kvs"
-  version "0.1.0"
+  version "0.2.0"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/itslab-kyushu/simple-kvs/releases/download/v0.1.0/kvs_0.1.0_darwin_amd64.zip"
-    sha256 "547a12f0687236b878084d35d7fe47d47614658fdbcc865ca54ff057ef2090c4"
+    url "https://github.com/itslab-kyushu/simple-kvs/releases/download/v0.2.0/kvs_0.2.0_darwin_amd64.zip"
+    sha256 "399b4ea42458034b337a06f632d266bbe475d24823c14c9b8475c15976f95ebc"
   else
-    url "https://github.com/itslab-kyushu/simple-kvs/releases/download/v0.1.0/kvs_0.1.0_darwin_386.zip"
-    sha256 "83364734dc3bedffb975e90a2b3c4a2fbc41e9e951eef51e9e2cf51708894f79"
+    url "https://github.com/itslab-kyushu/simple-kvs/releases/download/v0.2.0/kvs_0.2.0_darwin_386.zip"
+    sha256 "3c6c1c9958f06759afa5f3c52f2a4115ef8b5487177346469032e9096ed6a68f"
   end
 
   def install
